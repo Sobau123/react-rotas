@@ -12,8 +12,6 @@ const RoutesRoot = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/Sobre" element={<Sobre />} />
                 <Route path="/Usuario" element={<Usuario />} />
-
-
             </Routes>
         </BrowserRouter>
     )
