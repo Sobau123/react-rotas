@@ -1,9 +1,10 @@
-import React from 'react';
-import Routes from './routes/Rotas';
+import 'bootstrap/dist/css/bootstrap.css';
+import RoutesRoot from "./rotas";
 
-export default function App() {
+function App() {
   return (
-    <Routes />
-  );
+    <RoutesRoot />
+  )
 }
 
+export default App;
